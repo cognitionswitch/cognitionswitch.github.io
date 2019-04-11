@@ -59,7 +59,7 @@ $$B\left\lbrace\begin{eqnarray}
 {% endraw %}
 
 
-For commodity B, the expected, but unrealized, profit on the capital expenditure during the first period is \$500. Since the capitalist expects a return on investment, the capitalist treats this unrealized profit as additional capital expenditure during the second period; ie., the total capital invested is counted as \$5500 during the second period.
+For commodity B, the expected, but unrealized, profit on the capital expenditure during the first period is <span>$</span>500. Since the capitalist expects a return on investment, the capitalist treats this unrealized profit as additional capital expenditure during the second period; ie., the total capital invested is counted as \$5500 during the second period.
 
 Ricardo's example shows that each venture requires the same quantity of labor, $$L_Q$$ (measured by capital investments for the manufacture of commodities; ie., \$5000), but the exchange rate is not unity. During the second period, both ventures require a capital investment of \$5000, but the commodites produced from venture B will exchange for more than the commodities produced from venture A. 
 
