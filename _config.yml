@@ -27,6 +27,7 @@ markdown: kramdown
 theme: minima
 # theme: jekyll-theme-midnight
 show_excerpts: TRUE
+mathjax: true
 plugins:
   - jekyll-feed
 include: ['_pages', '_includes']

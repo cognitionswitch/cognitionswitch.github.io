@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ricardian Models - Value-in-Exchange 
+title: 'Ricardian Models: Value-in-Exchange' 
 excerpt: Notes on Ricardo's Principles of Political Economy & Taxation 
 date: 2019-04-07 
 categories: econ
