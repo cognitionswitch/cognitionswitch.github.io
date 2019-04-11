@@ -45,7 +45,7 @@ $$A\left\lbrace\begin{eqnarray}
 \end{eqnarray}\right.$$
 {% endraw %}
 
-A second venture B requires capital investment (\$5000) toward construction of a machine over the first year (fixed capital), with no production of commodities during this period; in the second year, production of commodities commences by employing the machine and an additional capital investment (\$5000) towards employment of labor for manufacturing.
+A second venture B requires capital investment (\\$5000) toward construction of a machine over the first year (fixed capital), with no production of commodities during this period; in the second year, production of commodities commences by employing the machine and an additional capital investment (\$5000) towards employment of labor for manufacturing.
 
 {% raw %}
 $$B\left\lbrace\begin{eqnarray} 
