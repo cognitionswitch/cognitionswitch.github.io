@@ -45,7 +45,7 @@ $$A\left\lbrace\begin{eqnarray}
 \end{eqnarray}\right.$$
 {% endraw %}
 
-A second venture B requires capital investment ($5000) toward construction of a machine over the first year (fixed capital), with no production of commodities during this period; in the second year, production of commodities commences by employing the machine and an additional capital investment ($5000) towards employment of labor for manufacturing.
+A second venture B requires capital investment (\$5000) toward construction of a machine over the first year (fixed capital), with no production of commodities during this period; in the second year, production of commodities commences by employing the machine and an additional capital investment (\$5000) towards employment of labor for manufacturing.
 
 {% raw %}
 $$B\left\lbrace\begin{eqnarray} 
@@ -59,9 +59,9 @@ $$B\left\lbrace\begin{eqnarray}
 {% endraw %}
 
 
-For commodity B, the expected, but unrealized, profit on the capital expenditure during the first period is $500. Since the capitalist expects a return on investment, the capitalist treats this unrealized profit as additional capital expenditure during the second period; ie., the total capital invested is counted as $5500 during the second period.
+For commodity B, the expected, but unrealized, profit on the capital expenditure during the first period is \$500. Since the capitalist expects a return on investment, the capitalist treats this unrealized profit as additional capital expenditure during the second period; ie., the total capital invested is counted as \$5500 during the second period.
 
-Ricardo's example shows that each venture requires the same quantity of labor, $$L_Q$$ (measured by capital investments for the manufacture of commodities; ie., $5000), but the exchange rate is not unity. During the second period, both ventures require a capital investment of $5000, but the commodites produced from venture B will exchange for more than the commodities produced from venture A. 
+Ricardo's example shows that each venture requires the same quantity of labor, $$L_Q$$ (measured by capital investments for the manufacture of commodities; ie., \$5000), but the exchange rate is not unity. During the second period, both ventures require a capital investment of \$5000, but the commodites produced from venture B will exchange for more than the commodities produced from venture A. 
 
 {% raw %}
 $$\frac{V_B}{V_A} = \frac{$6050}{$5500}$$
@@ -168,7 +168,7 @@ The examples above show that the supposed reduction in required labor has more t
 ##### **Influence of frequency of circulation for working capital in exchange rates**
 The frequency of circulation of working capital also influences exchange rates between commodities. Commodities from venture B will exchange for a smaller quantity of commodities from venture A when venture B requires more time before revenues are realized, than for venture A.
 
-Ricardo supposes that venture A requires a capital investment towards manufacturing of $2000, a rate of profit at $$10\%$$, and a realization of those profits after a single period. 
+Ricardo supposes that venture A requires a capital investment towards manufacturing of \$2000, a rate of profit at $$10\%$$, and a realization of those profits after a single period. 
 
 {% raw %}
 $$A\left\lbrace\begin{eqnarray} 
@@ -178,7 +178,7 @@ $$A\left\lbrace\begin{eqnarray}
 \end{eqnarray}\right.$$
 {% endraw %}   
 
-For venture B, suppose a capital investment towards manufacturing during a first period of $1000 to work up raw materials into intermediate products, and a second investment of $1000 towards manufactures during a second period to complete production of commodities to be brought to market.   
+For venture B, suppose a capital investment towards manufacturing during a first period of \$1000 to work up raw materials into intermediate products, and a second investment of \$1000 towards manufactures during a second period to complete production of commodities to be brought to market.   
 
 {% raw %}
 $$B\left\lbrace\begin{eqnarray} 
