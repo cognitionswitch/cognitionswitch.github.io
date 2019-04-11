@@ -3,7 +3,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 
-    {%- include head.html -%}
+    {% comment %}{%- include head.html -%} {% endcomment %}
 
   <body>
 
@@ -12,7 +12,7 @@
     </script>
 
     {%- include header.html -%}
-    {% comment %}{%- include navigation.html -%}{% endcomment %}
+    <!-- {%- include navigation.html -%} -->
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -24,4 +24,4 @@
 
   </body>
 
-</html>   
+</html>
