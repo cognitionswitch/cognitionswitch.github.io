@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section>
+<header class="major">
+    <h2>Recent Posts</h2>
+  </header>
+          <div class="posts">
+            {% for post in site.posts %}
+            {% assign mod3 = forloop.index | modulo: 3 %}
+              <article>
+                <a class="image"><img src="{{ post.image | absolute_url }}" alt="" style="width:200px;height:200px;" /></a>
+                <header>
+                  <span class="date">{{ post.date | date_to_string }}</span>
+                  <h2>{{ post.title }}</h2>
+                </header>
+                <p>{{ post.excerpt }}</p>
+                <ul class="actions">
+                  <li><a href="{{ post.url | absolute_url }}" class="button">... more</a></li>
+                </ul>
+              </article>
+            {% endfor %}
+</div>
+          </section>

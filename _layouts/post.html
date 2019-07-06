@@ -1,8 +1,57 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-<center><h1>{{page.title}}</h1></center>
-<center><p><i>{{page.excerpt}}</i></p></center>
-{% include mathjax.html %}
-{{ content }}
+{% include head.html %}
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                {% include header.html %}
+
+                <!-- Content -->
+                <section>
+                  <header class="main">
+                    <span class="date">{{page.date | date_to_string}}</span>
+              <h2>{{page.title}}</h2>
+              <p>{{page.excerpt}}</p>
+              {% include mathjax.html %}
+                  </header>
+<p></p>
+                {{ content }}
+
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/category/{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
+
+              </div>
+
+          </div>
+
+          {% include sidebar.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+</body>
+
+</html>
