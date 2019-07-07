@@ -197,7 +197,7 @@ The examples above show that the supposed reduction in required labor has more t
 #### **Influence of frequency of circulation for working capital in exchange rates**
 
 <p align="center">
-  <img width="600" height="300" src="../../../../images/ricardian_models_valuation/valuation_flowchart_circ_freq.svg">
+  <img width="500" height="240" src="../../../../images/ricardian_models_valuation/valuation_flowchart_circ_freq.svg">
 </p>
 
 The frequency of circulation of working capital also influences exchange rates between commodities. Commodities from venture _B_ will exchange for a greater quantity of commodities from venture _A_ when venture _B_ requires more time before revenues are realized than for venture _A_.

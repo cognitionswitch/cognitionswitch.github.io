@@ -15,13 +15,17 @@ tags: [economics, Ricardo, wages]
 
 Ricardo's theory of wages derives from earlier writers like Smith and Malthus, who modeled wages in relation to capital and population. These authors reasoned that wages must be paid to laborers from a fund of capital allocated for this purpose. A very large pool of capital in this fund relative to the available labor force implies a high demand for labor and results in relatively generous wages. Conversely, a very small pool of capital in this fund relative to the available labor force signals very low demand for labor and results in a lower wages for labor. This formulation of wages came to be known as the wage-fund model.  
 
-In the wage-fund model, population growth plays an important role on the dynamics of wages over time. Ricardo adopts the Malthusian model of population growth where population change is governed by the difference between current wages determined by supply and demand for labor, and a subsistence wage adequate to replenish the strength and faculties of labors and rear up a younger replacement population of workers. 
+In the wage-fund model, population growth plays an important role on the dynamics of wages over time. Ricardo adopts the Malthusian model of population growth where population change is governed by the difference between wages determined by current supply and demand for labor, and a subsistence wage only adequate to replenish the strength and faculties of labors and rear up a younger replacement population of workers. The diagram below shows the direction of influence between capital, wages, valuation of raw produce (ie., subsistence of laborers), and population. The diagram also shows how the interplay between these factors influences profits and aggregate rent. 
+
+<p align="center">
+  <img width="500" height="240" src="../../../../images/ricardian_models_wages/wages_md_flowchart.svg">
+</p>
 
 #### **Population growth**
 
-Ricardo does not explicitly formulate a relationship between population growth and wages. Instead, he simply suggests that population grows when earned wages exceed the subsistence wage, contracts when wages fall short of the subsistence wage, and remain unchanged when laborers exactly earn the subsistence wage. 
+Ricardo does not explicitly formulate a relationship between population growth and wages. Instead, he simply suggests that population grows when earned wages exceed the subsistence wage, contracts when wages fall short of the subsistence wage, and remains unchanged when laborers earn exactly the subsistence wage. We can propose a dynamic model for population as follows:
 
-Let $P$ represent population, $w$ represent wages, and $w'$ represent the subsistence wage. Importantly, $w$ changes dynamically, but Ricardo does not provide a specific function to describe these dynamics. Accordingly, the equation below characterizes this term as a general function of time. The change in population at time $t$ is represented as   
+Let $P$ represent population, $w$ represent wages, and $w'$ represent a constant subsistence wage. Importantly, $w$ changes dynamically, but Ricardo does not provide a specific function to describe these dynamics. Accordingly, the equation below characterizes this term as a general function of time. The change in population at time $t$ is represented as   
 
 {% raw %}
 $$
@@ -55,12 +59,19 @@ $$
 
 where $P_0$ is the population at time $t=0$.
 
-Equation $\ref{b}$ shows that as $w(t)$ falls above or below the subsistence wage $w'$, population will decrease or increase, respectively.  
+Equation $\ref{b}$ shows that as $w(t)$ falls above or below the subsistence wage $w'$, population will decrease or increase, respectively. To generalize equation $\ref{b}$ for a dynamically changing subsistence wage, we represent the subsistence wage as a function of time $w'(t)$ to derive
+
+{% raw %}
+$$
+
+P(t) = \frac{e^{k \int w(t) dt}}{e^{k \int w'(t) dt}} P_0 
+\label{c}\tag{3}
+$$
+{% endraw %}
 
 #### **The Wage Fund Model**
 
 _Wages at steady state_<br>
-
 As with the population model, Ricardo does not explicitly formulate the relationship between wages, capital, and population. However, Ricardo agrees with earlier writers that for a fixed amount of capital $c^*$, wages at the steady state will amount to the subsistence wage for a population of workers. A very simple formulation of this relationship is characterized as 
 
 {% raw %}
@@ -69,7 +80,7 @@ w_{\infty} &=& \frac{c^*}{P_\infty} \\[2ex]
 &=& w' \\[2ex]
 &=& kv_p
 \end{eqnarray}
-\label{c}\tag{3}
+\label{d}\tag{4}
 $$
 {% endraw %}
 
@@ -77,7 +88,6 @@ where $w_\infty$ is the steady state wage for a standing population $P_\infty$ p
 
 
 _Deviation of wages from steady state_<br>
-
 The dynamics of wages involve capital funds (supply), population (demand), and subsistence wages related to the price of provisions $v_p$: 
 
 {% raw %}
@@ -90,7 +100,7 @@ $$
 
 were we assume a constant relationship $k_1$ between wages and cost of provisions.
 
-Lacking a general relationship between wages, capital, and population, equation $\ref{c}$ can be used to characterise dynamics of wages in response to perturbations to both capital and population from steady state:  
+Lacking a general relationship between wages, capital, and population, equation $\ref{d}$ can be used to characterise dynamics of wages in response to perturbations to both capital and population from steady state:  
 
 {% raw %}
 $$
@@ -98,20 +108,20 @@ $$
 \frac{dw}{dt} &=& k_1\frac{\partial v_p}{\partial t} + \frac{1}{P_\infty}\frac{\partial c}{\partial t} - \frac{c^*}{{P_\infty}^2}\frac{\partial P}{\partial t} \\[2ex]
 &=& k_1\frac{\partial v_p}{\partial t} + \frac{1}{P_\infty}\frac{\partial c}{\partial t} - \frac{w'}{P_\infty} \frac{\partial P}{\partial t}
 \end{eqnarray}
-\label{d}\tag{4}
+\label{e}\tag{5}
 $$
 {% endraw %}
 
 The middle term equation $\ref{d}$ states that wages increase for increasing capital, but that this increase is moderated by the size of the population. That is, an increase in capital will go further towards wage increases when the population over which this capital is distributed is small. The last term of equation $\ref{d}$ shows wages decrease for increasing population, but that this decrease is moderated by the size of the baseline population and also scales according to the subsistence wage.  
 
-The effect of $$P_\infty$$ in the denominator of the last term implies a change in population has a smaller impact on wages when population deviates from a larger baseline population than when it deviates from a smaller population. On the other hand, the effect of $w'$ can be understood by considering a large subsistence wage implies a large wage fund allocated to a relatively small labor force receiving it. A fixed deviation in population will have a larger impact on wages when the allocation of capital to each laborer is large than when it is small.  
+The effect of $$P_\infty$$ in the denominator of the last term implies a change in population has a smaller impact on wages when population deviates from a larger baseline population than when it deviates from a smaller population. On the other hand, the effect of $w'$ in the numerator can be understood by considering that large subsistence wages imply a large wage fund $c$ allocated to a relatively small labor force $P$ receiving it. A fixed deviation in population will have a larger impact on wages when the allocation of capital to each laborer is large than when it is small.  
 
-Equation $\ref{d}$ can be stated soley in terms of wages and capital using substitutions from equations $\ref{a}$ and $\ref{c}$. This representation shows wages tend to decrease or increase towards steady state levels when current wages are perturbed above or below subsistence wages, respectively. 
+Equation $\ref{e}$ can be stated soley in terms of wages and capital using substitutions from equations $\ref{a}$ and $\ref{c}$. This representation shows wages tend to decrease or increase towards steady state levels when current wages are perturbed above or below subsistence wages, respectively. 
 
 {% raw %}
 $$
 \frac{dw}{dt} = k_1\frac{\partial v_p}{\partial t} + \frac{c^*}{w'}\frac{\partial c}{\partial t} - w' k \left(w - w' \right)
-\label{e}\tag{5}
+\label{f}\tag{6}
 $$
 {% endraw %}
 
