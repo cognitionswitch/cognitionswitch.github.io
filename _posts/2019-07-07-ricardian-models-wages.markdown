@@ -4,7 +4,7 @@ mathjax: true
 comments: true
 title: 'Ricardian Models: Wages' 
 excerpt: Notes on <i>The Principles of Political Economy and Taxation</i> 
-date: 2019-05-18 
+date: 2019-07-07 
 categories: economics
 tags: [economics, Ricardo, wages]
 # permalink: /:categories/:year/:month/:day/:title.html
