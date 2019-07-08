@@ -688,7 +688,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.3863994"
-     inkscape:cx="324.72839"
+     inkscape:cx="238.20581"
      inkscape:cy="166.12975"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -717,7 +717,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -758,7 +758,7 @@
     </g>
     <g
        id="g5889"
-       style="opacity:0.4">
+       style="opacity:0.3">
       <g
          id="g5836"
          style="">
@@ -787,7 +787,7 @@
     <g
        id="g4750"
        transform="translate(162.25337,12.699997)"
-       style="opacity:0.4">
+       style="opacity:0.3">
       <g
          id="g4744"
          style="">
@@ -961,8 +961,8 @@
        inkscape:connection-start="#g4739"
        inkscape:connection-end="#rect829" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5041);opacity:0.4"
-       d="m 189.34164,208.49503 -0.42775,26.4609"
+       style="opacity:0.3;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5041)"
+       d="m 189.34164,208.49503 -1.2e-4,26.4609"
        id="path4760"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="3"
@@ -1000,7 +1000,7 @@
        inkscape:connection-start="#g5898"
        inkscape:connection-end="#g10117" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5873);opacity:0.4"
+       style="opacity:0.3;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5873)"
        d="M 118.55566,195.92801 145.113,167.56"
        id="path5854"
        inkscape:connector-type="polyline"

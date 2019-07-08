@@ -10,7 +10,7 @@ tags: [economics, Ricardo, rent]
 # permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-In _Principles of Political Economy_, Ricardo develops a model describing the rent charged for lands used for production or commercial enterprise. The model explains the circumstances under which land owners may charge rent, factors of variation in the price of rent, and the influences of population and agricultural innovation on the price of rent. The diagram below shows the direction of influence between population, agricultural improvements, the valuation of raw produce $v_U$ (ie., necessary provisions), and rent.
+In _Principles of Political Economy_, Ricardo develops a model describing the rent charged for lands used for production or commercial enterprise. The model explains the circumstances under which land owners may charge rent, factors of variation in the price of rent, and the influences of population and agricultural innovation on the price of rent. The diagram below shows the direction of influence between population, agricultural improvements, the valuation of raw produce $v_U$ (ie., the necessary subsistence of laborers), and rent. The diagram also shows how the interplay between these factors sits within a wider context of economic factors including capital, wages, and profits.
 
 <p align="center">
   <img width="500" height="240" src="../../../../images/ricardian_models_rent/rent_md_flowchart.svg">
