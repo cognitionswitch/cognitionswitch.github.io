@@ -73,7 +73,7 @@ The flow of money and goods can be understood as a sequence of exchanges as foll
 These several transactions effectively transfer cloth and wine between nations and return the original bill of exchange to Portugal, without the need to move currencies between nations.
 
 #### **Foreign Trade using Currency**
-When one nation lacks a complimentary comparative advantage between two commodities, or when one nation's foreign policy effectively prohibits importation or exporation of commodities, than an exporting nation that enjoys an absolute advantage will still benefit from producing commodities cheaply in the home country and selling them at a profit in a foreign country. In these cases, the purchasing nation must bear the cost with the physical transportation of gold or silver. In this circumstance, there are two important points of consideration. 
+When one nation lacks a complimentary comparative advantage between two commodities, or when one nation's foreign policy effectively prohibits importation or exporation of commodities, then an exporting nation that enjoys an absolute advantage will still benefit from producing commodities cheaply in the home country and selling them at a profit in a foreign country. In these cases, the purchasing nation must bear the cost with the physical transportation of gold or silver. In this circumstance, there are two important points of consideration. 
 
 1. The producing nation will exchange commodities while accruing gold or silver; the purchasing nation will gain in foreign goods while divesting from gold or silver.
 2. The higher transaction costs will prevent fewer commodities from moving between the countries.
