@@ -5,8 +5,10 @@ comments: true
 title: 'Ricardian Models: Rent' 
 excerpt: Notes on <i>The Principles of Political Economy and Taxation</i>
 date: 2019-07-07 
+modified: 2019-07-07
 categories: economics
 tags: [economics, Ricardo, rent]
+image: ../../../../images/ricardian_models_rent/toy_homes.jpg
 # permalink: /:categories/:year/:month/:day/:title.html
 ---
 

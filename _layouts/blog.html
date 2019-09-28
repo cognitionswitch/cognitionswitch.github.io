@@ -44,7 +44,9 @@
               <article>
                 <a class="image"><img src="{{ post.image | absolute_url }}" alt="" style="width:200px;height:200px;" /></a>
                 <header>
-                  <span class="date">{{ post.date | date_to_string }}</span>
+                  posted: <span class="date">{{ post.date | date_to_string }}</span>
+                  <br>
+                  modified: <span class="date">{{ post.modified | date_to_string }}</span>
                   <h2>{{ post.title }}</h2>
                 </header>
                 <p>{{ post.excerpt }}</p>

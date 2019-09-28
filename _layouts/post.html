@@ -23,6 +23,8 @@
                 <section>
                   <header class="main">
                     <span class="date">{{page.date | date_to_string}}</span>
+                    <br>
+                    modified: <span class="date">{{page.modified | date_to_string}}</span>
               <h2>{{page.title}}</h2>
               <p>{{page.excerpt}}</p>
               {% include mathjax.html %}

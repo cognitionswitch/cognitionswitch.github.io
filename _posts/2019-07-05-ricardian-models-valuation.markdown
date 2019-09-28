@@ -5,8 +5,10 @@ comments: true
 title: 'Ricardian Models: Valuation' 
 excerpt: Notes on <i>The Principles of Political Economy and Taxation</i> 
 date: 2019-07-05 
+modified: 2019-07-05
 categories: economics
 tags: [economics, Ricardo, valuation]
+image: ../../../../images/ricardian_models_valuation/businessman-carry-money-weight.jpg
 # permalink: /:categories/:year/:month/:day/:title.html
 ---
 
