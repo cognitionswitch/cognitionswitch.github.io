@@ -8,7 +8,7 @@ date: 2019-07-07
 modified: 2019-07-07 
 categories: economics
 tags: [economics, Ricardo, wages]
-image: ../../../../images/ricardian_models_wages/dollar-wheelbarrow.jpg
+image: ../../../../images/ricardian_models_wages/businessman-carry-money-weight.jpg
 # permalink: /:categories/:year/:month/:day/:title.html
 ---
 

@@ -8,7 +8,7 @@ date: 2019-07-05
 modified: 2019-07-05
 categories: economics
 tags: [economics, Ricardo, valuation]
-image: ../../../../images/ricardian_models_valuation/businessman-carry-money-weight.jpg
+image: ../../../../images/ricardian_models_valuation/dollar-wheelbarrow.jpg
 # permalink: /:categories/:year/:month/:day/:title.html
 ---
 
