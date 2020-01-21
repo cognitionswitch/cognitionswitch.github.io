@@ -11,11 +11,11 @@ tags: [neuroscience, modeling]
 image: ../../../../images/rate_representation/rate_representation.svg
 ---
 
-In the study of binary or count data, discrete events can be mapped to continuous variables for visualization, analysis, and modeling. Python’s standard suite of data science libraries provide a number of functions to effect these transformations. In this post, we apply some very simple functions from the Pandas and Numpy libraries to transform neural spike train records from discrete events signifying action potentials to firing rates in Hertz. 
+Discrete events, such as binary or count data, can sometimes be better understand when represented as continuous variables for visualization, analysis, and modeling. Python’s standard suite of data science libraries provide a number of functions to effect these transformations. In this post, we apply some very simple functions from the Pandas and Numpy libraries to transform neural spike train records from discrete events signifying action potentials to continous firing rates in Hertz. 
 
 The transformations described below largely follow the approach outlined in *Theoretical Neuroscience* (Dayan & Abbott, 2001). We apply these methods to spike train recordings provided through the book’s website hosted by University College of London (http://www.gatsby.ucl.ac.uk/~dayan/book/exercises.html). The spike train data were collected by Rob de Ruyter van Steveninck and the recordings reflect action potentials from a fly H1 neuron in response to white noise stimuli. 
 
-This post demonstrates methods for transformating discrete events to continuous representations as follows:
+This post demonstrates methods for transforming discrete events to continuous representations as follows:
 1. Code to download the spike train data and bring it into your python workspace.
 2. Visualize the raw spike train data as discrete events using a rug plot.
 3. Transformations of the spike train as firing rates (Hertz) over contiguous bins
@@ -39,7 +39,7 @@ sns.set()
 rcParams['figure.figsize'] = (35,24)
 {% endhighlight %}
 
-We use the seaborn function .set() to render plots with seaborn defaults globally for better visualization. We also set the rcParams from the matplotlib library for larger plots.
+The seaborn function .set() will render plots with seaborn defaults globally for clearer visualization. We also use the rcParams function from the matplotlib library for larger plots.
 
 **Downloading and formatting the data**<br>
 We start by downloading and formatting the data using the urllib and scipy packages. With the urllib package we can open a connection to the remote web url where the data is stored. Once we have established a connection, we use the .read() method to load the data into our workspace. 

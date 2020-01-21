@@ -18,7 +18,7 @@ You can find the source code for Jekyll at GitHub:
 
 ### Welcome to Cognition Switch!
 
-A notebook for summaries and syntheses of fundamental developments in my favorite areas of interest:
+This space contains notebooks, summaries, and syntheses on fundamental writings from my favorite areas in the Decision Sciences:
 * cognitive, behavioral, and social psychology 
 * economics, behavioral economics, and game theory 
 * models, statistics, and analytics 
