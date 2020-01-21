@@ -5,7 +5,7 @@ comments: true
 title: 'Cournotian models: foreign exchange rates' 
 excerpt: Notes on <i>Researches into the Mathematical Principles of the Theory of Wealth</i> 
 date: 2020-01-20 
-modified: 2020-02-20
+modified: 2020-01-20
 categories: [economics, modeling]
 tags: [economics, modeling]
 image: ../../../../images/cournot_models_fx/currency_exchange.png
