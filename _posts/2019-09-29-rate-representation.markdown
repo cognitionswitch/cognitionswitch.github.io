@@ -59,9 +59,7 @@ The data loads as a `.mat` file, Matlab’s proprietary data format. To convert 
 
 ```python
 #### file paths - local
-mat_file_path = (
-        r"C:\Users\Carlos\Dropbox\Documents\Documents\E-Books\Neuroscience/"
-        "Dayan2001TheoreticalNeuroscience\Book Chapters\ch_1\c1p8.mat")
+mat_file_path = (r"local\path\to\data\c1p8.mat")
 
 with open(mat_file_path, 'wb') as out_file:
     out_file.write(mat_data)
