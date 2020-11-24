@@ -1,0 +1,19 @@
+Jupyter Notebook to HTML (Jekyll workflow)
+
+Creating the Jupyter Notebook
+1. Create Jupyter Notebook in _ignore directory
+2. Add front matter as 'Raw' (in contrast to 'Markdown' or 'Code')
+-- Example: new_notebook.ipynb
+
+Generating the markdown and associated images 
+1. Use: jupyter nbconvert --to markdown new_notebook.ipynb ... additional arguments to suppress code, etc
+    A. Creates new_notebook.md
+    B. Creates /new_notebook_files (containing images)
+2. Copy markdown output new_notebook.md to /_posts
+3. Copy image folder /new_notebook_files to /images/name_of_post_wo_date_prefix/ (will need to create name_of_post_wo_date_prefix)
+4. Modify markdown script to point to correct location of image files
+-- new_notebook.md image pointers needs to be modified to refer to ../../../../images/name_of_post_wo_date_prefix/new_notebook_files/some_image.png
+-- example ![png](../../../../images/name_of_post_wo_date_prefix/new_notebook_files/some_image.png)
+
+Use Jekyll to convert markdown to HTML
+1. bundle exec jekyll serve

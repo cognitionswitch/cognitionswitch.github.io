@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                {% include header.html %}
+
+                <!-- Content -->
+                <section>
+                	<header class="main">
+                		<h2>{{ page.title }}</h2>
+                	</header>
+          <article class="post featured">
+            <p>
+              <h3>Categories</h3>
+            </p>
+
+      <ul class="actions">
+    <li><a href="{{ "/category/neuroscience" | absolute_url }}" class="button">Neuroscience</a></li>    
+    <li><a href="{{ "/category/psychology" | absolute_url }}" class="button">Psychology</a></li>
+    <li><a href="{{ "/category/economics" | absolute_url }}" class="button">Economics</a></li>
+    <li><a href="{{ "/category/modeling" | absolute_url }}" class="button">Modeling</a></li>
+  </ul>
+  <br></br>
+          </article>
+
+          <!-- Post -->
+          <section class="posts">
+            {% for post in site.posts %}
+            {% assign mod3 = forloop.index | modulo: 3 %}
+              <article>
+                <a class="image"><img src="{{ post.image | absolute_url }}" alt="" style="width:200px;height:200px;" /></a>
+                <header>
+                  posted: <span class="date">{{ post.date | date_to_string }}</span>
+                  <br>
+                  modified: <span class="date">{{ post.modified | date_to_string }}</span>
+                  <h2>{{ post.title }}</h2>
+                </header>
+                <p>{{ post.excerpt }}</p>
+                <ul class="actions">
+                  <li><a href="{{ post.url | absolute_url }}" class="button">... more</a></li>
+                </ul>
+              </article>
+            {% endfor %}
+
+          </section>
+
+                {{ content }}
+
+              </div>
+          </div>
+
+          {% include sidebar.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+</body>
+
+</html>
