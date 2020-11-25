@@ -12,8 +12,9 @@ Generating the markdown and associated images
 2. Copy markdown output new_notebook.md to /_posts
 3. Copy image folder /new_notebook_files to /images/name_of_post_wo_date_prefix/ (will need to create name_of_post_wo_date_prefix)
 4. Modify markdown script to point to correct location of image files
--- new_notebook.md image pointers needs to be modified to refer to ../../../../images/name_of_post_wo_date_prefix/new_notebook_files/some_image.png
 -- example ![png](../../../../images/name_of_post_wo_date_prefix/new_notebook_files/some_image.png)
+5. Modify any local file paths that are show explicitly in code chunks to something generic
+-- example 'local\path\to\data'
 
 Use Jekyll to convert markdown to HTML
 1. bundle exec jekyll serve

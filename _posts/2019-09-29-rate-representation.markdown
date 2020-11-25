@@ -165,11 +165,6 @@ A window of 51 gives 25 bins to either side of center. Since each bin equals 2 m
 
 ```python
 #### window method: rectangular
-# a window of 51 gives +- 25 bins to either side of center;
-# since each bin equals samp_pd (2ms) this comes to a window size of 102 ms;
-# after counting spikes over this window, we divide by 51*samp_pd 
-# to get the estimated spikes per ms; then we divide further
-# by 1ms (1/1000) to get rate in Hertz
 plt.figure(figsize=(18,4))
 win_pd = int(samp_ms_pd*25+1)
 rect_win_pl = (
@@ -208,14 +203,6 @@ The rolling method with `win_type = 'gaussian'` produces an unnormalized gaussia
 
 ```python
 #### window method: gaussian
-# the rolling method with win_type = "gaussian" produces an
-# unnormalized gaussian sum. The parameter representing std 
-# should be adjusted according to the resolution of the sampling
-# rate. Since each addend equals 1, we can apply the 
-# normalization after summing (in this case using the unadjusted std).
-# The sum after normalization represents the estimated firing 
-# rate at each 2ms bin. To get the rate in Hertz, we divide
-# further by the duration of the bin (2ms)
 plt.figure(figsize=(18,4))
 sigma = 100
 adj_sigma = sigma/samp_ms_pd
