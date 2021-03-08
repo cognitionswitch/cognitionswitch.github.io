@@ -8,7 +8,7 @@ date: 2020-03-07
 modified: 2020-03-07
 categories: [psychology, economics, modeling]
 tags: [psychology, economics, modeling]
-image: ../../../../images/prospect_theory/balance_scale.jpg
+image: '![text](../../../../images/prospect_theory/balance_scale.jpg){:class="img-responsive"}'
 ---
 
 Among the major developments at the interface of economics and psychology, Prospect Theory stands as one of the most influential theoretical frameworks for describing a broad range choice of behavior within the sphere of human decision making. Prospect Theory provided a framework to understand decisions between lotteries, ie., decisions between risky assets. Daniel Kahneman and Amos Tversky's first published account of Prospect Theory in 1979 outlined survey data that contradicted a number of predicted outcomes under normative choice theories during that period. In this same paper, they described Prospect Theory as a more flexible framework that extended and modified the most popular normative theory at that time, Expected Utility Theory, and that would account for the choice anomalies enumerated in their paper.
