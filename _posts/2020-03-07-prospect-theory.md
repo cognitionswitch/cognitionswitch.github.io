@@ -8,12 +8,12 @@ date: 2020-03-07
 modified: 2020-03-07
 categories: [psychology, economics, modeling]
 tags: [psychology, economics, modeling]
-image: '![text](../../../../images/prospect_theory/balance_scale.jpg){:class="img-responsive"}'
+image: ../../../../images/prospect_theory/balance_scale.jpg
 ---
 
-Among the major developments at the interface of economics and psychology, Prospect Theory stands as one of the most influential theoretical frameworks for describing a broad range choice of behavior within the sphere of human decision making. Prospect Theory provided a framework to understand decisions between lotteries, ie., decisions between risky assets. Daniel Kahneman and Amos Tversky's first published account of Prospect Theory in 1979 outlined survey data that contradicted a number of predicted outcomes under normative choice theories during that period. In this same paper, they described Prospect Theory as a more flexible framework that extended and modified the most popular normative theory at that time, Expected Utility Theory, and that would account for the choice anomalies enumerated in their paper.
+Among the major developments at the interface of economics and psychology, Prospect Theory stands as one of the most influential theoretical frameworks for describing a broad range choice of behavior within the sphere of human decision making. Prospect Theory provides a model to understand decisions between lotteries, ie., decisions between risky assets. Daniel Kahneman and Amos Tversky's first published account of Prospect Theory in 1979 outlined survey data that contradicted a number of predicted outcomes under normative choice theories during that period. In this same paper, they described Prospect Theory as a more flexible framework that accounted for these choice anomalies by extending and modifying the most popular normative theory at that time, Expected Utility Theory.
 
-Kahneman and Tversky did not commit to a functional form in this original paper, but they used observations collected from specific choice problems to highlight necessary features of a more flexible framework that could accommodate the choice anomalies occuring under Expected Utility Theory. Over a decade later, Kahneman and Tversky would author another paper that extended their original ideas, proposed functional forms for representations of value and risk, and addressed criticisms of their first account of Prospect Theory. These improvements came to be known as Cumulative Prospect Theory (Kahneman and Tversky, 1990). The current blog contains notes and explanations of the original Prospect Theory framework. A separate blog post will illustrate details and ideas related to Cumulative Prospect Theory.   
+Kahneman and Tversky did not commit to a functional form in this original paper, but they used observations collected from specific choice problems to highlight necessary features of a model that could accommodate the choice anomalies occuring under Expected Utility Theory. Over a decade later, Kahneman and Tversky would author another paper that extended their original ideas, proposed functional forms for representations of value and risk, and addressed criticisms of their first account of Prospect Theory. These improvements came to be known as Cumulative Prospect Theory (Kahneman and Tversky, 1990). The current blog contains notes and explanations of the original Prospect Theory framework. A separate blog post will illustrate details and ideas related to Cumulative Prospect Theory.   
 
 ### A Decision Between Lotteries 
 
@@ -25,7 +25,7 @@ Suppose that someone were to offer you a choice between two lotteries:
     
     B) A 100% chance you win $3000.
 
-Try to answer for yourself which option you would choose if you could select only one of these lottery.
+Try to answer for yourself which option you would choose if you could select only one of these lotteries.
 
 Imagine a second choice between two different lotteries:
     
@@ -39,7 +39,7 @@ Again, take a moment to ask yourself which option you would select.
 
 An economist would say that neither of the two problems described above have a correct answer when taken alone. Individuals have different risk tolerances, and choices that bring greatest utility for one person do not necessarily match those that bring greatest utility for another. However, a rational choice model asserts that the problems described above do in fact have correct answers when taken jointly: a lottery selection in the first problem *implies* a correct lottery selection in the second problem, if a decision maker expects to be *self-consistent*. In fact, self-consistency forms the criteria under which rational choice models characterize a decision maker *as rational*. 
 
-Under a rational choice model, the fact that a selection in the first choice problem implies a correct (ie., consistent) selection in the second choice problem will be shown below. First, this discussion will benefit from a standard notation to characterize a lottery. Following the notation used by K&T, the first lottery above (A) is represented as (\\$4000, .80), while (B) is represented as (\\$3000): This notation implies that outcomes that do not affect a decision maker's current wealth are only implied and not explicitly represented (eg., the 20% chance of winning nothing in lottery (A) is omitted from this notation), and entirely certain outcomes are denoted only by the value of the outcome without the explicit statement that the outcome is available with 100% probability. Thus, the first lottery of the first problem (A) is represented as (\\$4000, 0.2) while the second lottery (B) is shown as (\$3000).      
+Under a rational choice model, the fact that a selection in the first choice problem implies a correct (ie., consistent) selection in the second choice problem will be shown below. First, this discussion will benefit from a standard notation to characterize a lottery. Following the notation used by K&T, the first lottery above (A) is represented as (\\$4000, .80), while (B) is represented as (\\$3000): This notation implies that outcomes that do not affect a decision maker's current wealth are only implied and not explicitly represented (eg., the 20% chance of winning nothing in lottery (A) is omitted from this notation), and entirely certain outcomes are denoted only by the value of the outcome without the explicit statement that the outcome is available with 100% probability. Thus, the first lottery of the first problem (A) is represented as (\\$4000, 0.2) while the second lottery (B) is shown as (\\$3000).      
 
 ### Expected Utility Theory
 
@@ -59,7 +59,7 @@ At the time K&T first published Prospect Theory, the concavity of the utility fu
 
 When respondents selected between lotteries described in problems 1 and 2 described above, the large majority selected B) in the first problem, and C) in the second problem.
 
-According to Expected Utility Theory, the selection of B) in the first problem is represented as $0.80 \, u(\$4000) < u(\$3000)$, or $\frac{4}{5} < \frac{u(\$3000)}{u(\$4000)}$. On the other hand, the selection of C) in the second problem implies that the preference order is reversed from the first problem: $0.20 \, u(\\$4000) > 0.25 \, u(\\$3000)$, or $\frac{4}{5} > \frac{u(\$3000)}{u(\$4000)}$.
+According to Expected Utility Theory, the selection of B) in the first problem is represented as $0.80 \, u(\\$4000) < u(\\$3000)$, or $\frac{4}{5} < \frac{u(\\$3000)}{u(\\$4000)}$. On the other hand, the selection of C) in the second problem implies that the preference order is reversed from the first problem: $0.20 \, u(\\$4000) > 0.25 \, u(\\$3000)$, or $\frac{4}{5} > \frac{u(\\$3000)}{u(\$4000)}$.
 
 The choice problems posed at the outset of this discussion illustrate a case where respondents make selections *inconsistently* between the two problems. In fact, respondents show inconsistencies in choice behavior across a large number of choice problems characterized by seemingly different assumptions and features.  
 
@@ -82,7 +82,7 @@ Equation $\ref{b}$ shows that when probabilities of non-zero outcomes sum to les
 
 In addition, when the probabilities associated with each outcome sum to 1, and when the outcomes of a lottery are either both positive or both negative, Prospect Theory represents the outcome closest to zero as a certain result and the difference between the more extreme outcome and the less extreme outcome is mutiplied by the weighting function of the probability associated with the more extreme outcome. This formulation aligns with intuition and agrees with decision outcomes observed by respondents as illustrated in problems below.   
 
-A number of decision phenomena relate to the value function alone. Consider first, the following decision problems.
+A number of decision phenomena relate to the value function alone. Consider:
 
 - Problem 3
 
@@ -97,7 +97,7 @@ A number of decision phenomena relate to the value function alone. Consider firs
     D) A 25% chance you lose \\$4000, and 25% chance you lose \$2000, and 50% chance you lose nothing.
 
 
-For Problem 3, respondents generally exhibit preferences as $0.25 v(\\$6000) < 0.25 v(\\$4000) + 0.25 v(\\$2000)$ or more simply $v(\\$6000) < v(\\$4000) + v(\\$2000)$. On the other hand, respondents will generally make selections under Problem 4 as $v(-\\$6000) > v(-\\$4000) + v(-\\$2000)$. Consistent with Expected Utility Theory, Prospect Theory assumes the value function $v$ is concave in the domain of gains ($v{''}(x) < 0, \, x \ge 0$) to capture the effect of decreasing marginal utility (ie., generally *risk aversion* in the domain of gains). To accord with *general* observations of *risk seeking* in the domain of losses, the value function also presumes convexity in the domain of losses ($v''(x) > 0, \, x \lt 0$). The properties of concavity in the domain of gains and convexity in the domain of losses predicts the *reflection effect* whereby respondents may *generally* prefer $p_1 u(x_1) < p_2 u(x_2)$ but $p_1 u(-x_1) > p_2 u(-x_2)$ for $x_1, x_2 > 0$. Finally, Prospect Theory presumes that the value function is steeper in losses than in gains to reflect the phenomena of *loss aversion*: $v(x) < -v(-x)$ and $v'(x) < v'(-x)$.
+For Problem 3, respondents generally exhibit preferences as $0.25 v(\\$6000) < 0.25 v(\\$4000) + 0.25 v(\\$2000)$ or more simply $v(\\$6000) < v(\\$4000) + v(\\$2000)$. On the other hand, respondents will generally make selections under Problem 4 as $v(-\\$6000) > v(-\\$4000) + v(-\\$2000)$. Consistent with Expected Utility Theory, Prospect Theory assumes the value function $v$ is concave in the domain of gains (${v''}(x) < 0, \quad x \ge 0$) to capture the effect of decreasing marginal utility (ie., generally *risk aversion* in the domain of gains). To accord with *general* observations of *risk seeking* in the domain of losses, the value function also presumes convexity in the domain of losses (${v''}(x) > 0, \quad x \lt 0$). The properties of concavity in the domain of gains and convexity in the domain of losses predicts the *reflection effect* whereby respondents may *generally* prefer $p_1 u(x_1) < p_2 u(x_2)$ but $p_1 u(-x_1) > p_2 u(-x_2)$ for $x_1, x_2 > 0$. Finally, Prospect Theory presumes that the value function is steeper in losses than in gains to reflect the phenomena of *loss aversion*: $v(x) < -v(-x)$ and $v'(x) < v'(-x)$.
 
 The dominant choice preferences for *risk aversion* in gains and *risk seeking* in losses are somewhat qualified since respondents exhibit contrary patterned choice behavior when outcomes are paired with low probabilities. Prospect Theory explains these more nuanced choice patterns using a combination of the value function and the weighting function $\pi$. The weighting function conforms to $\pi(x) = x, \, x \in \lbrace 0, 1 \rbrace$ but K&T stress that $\pi$ is not a probability measure. A more complete articulation of the features of the weighting function are described within the context of representative choice anomalies shown below. 
 
@@ -126,11 +126,11 @@ Violations of independence are characterized by preference reversal following an
     
     D) (\\$2400, 0.34).
     
-For Problem 5, respondents generally show a preference for lottery B), while for Problem 6, respondents tend to prefer lottery C). Analyzing this choice pattern under Expected Utility Theory, for Problem 5 we have $0.33 u(\$2500) + 0.66 u(\$2400) < u(\$2400)$ or $0.33 u(\$2500) < 0.34 u(\$2400)$, while repondents show the opposite preference when considering Problem 6.
+For Problem 5, respondents generally show a preference for lottery B), while for Problem 6, respondents tend to prefer lottery C). Analyzing this choice pattern under Expected Utility Theory, for Problem 5 we have $0.33 u(\\$2500) + 0.66 u(\\$2400) < u(\\$2400)$ or $0.33 u(\\$2500) < 0.34 u(\\$2400)$, while repondents show the opposite preference when considering Problem 6.
 
 #### *Signature formulation*
 
-K&T point out that Problem 6 is derived by decrementing $0.66 u(\$2400)$ from both of the lotteries in Problem 5. More generally, if respondents express a preference $(x_1, p_1; x_2, p_2) > (x_2, p_3)$ with $p_2 < p_3$, then there may be some values of $x_2$, $p_2$, and $p_3$ such that $(x_1, p_1) < (x_2, p_3 - p_2)$ 
+K&T point out that Problem 6 is derived by decrementing $0.66 u(\\$2400)$ from both of the lotteries in Problem 5. More generally, if respondents express a preference $(x_1, p_1; x_2, p_2) > (x_2, p_3)$ with $p_2 < p_3$, then there may be some values of $x_2$, $p_2$, and $p_3$ such that $(x_1, p_1) < (x_2, p_3 - p_2)$ 
 
 #### *Associated phenomena*
 
@@ -158,12 +158,12 @@ Choice problems demonstrating violations of substitution are characterized by pr
     
     D) (\\$3000, 0.002).
     
-For Problem 7, respondents generally prefer lottery B), while for Problem 8, respondents tend to prefer lottery C). This choice pattern represents Problem 7 as $0.45 u(\\$6000) < 0.90 u(\\$3000)$ or $\frac{1}{2} < \frac{u(\$3000)}{u(\$6000)}$, while repondents show the opposite preference when considering Problem 8. 
+For Problem 7, respondents generally prefer lottery B), while for Problem 8, respondents tend to prefer lottery C). This choice pattern represents Problem 7 as $0.45 u(\\$6000) < 0.90 u(\\$3000)$ or $\frac{1}{2} < \frac{u(\\$3000)}{u(\\$6000)}$, while repondents show the opposite preference when considering Problem 8. 
 
 Note that the introductory Problems 1 and 2 at the start of this blog post also show a violation of substitution. In that case the probabilities for lotteries $(0.8, \\$4000)$ and $(\\$3000)$ are both scaled by a factor of $\frac{1}{4}$. 
 
 #### *Signature Formulation*
-Violations of substitution show that applying the same relative decrement to both lotteries in a choice problem may elicit preference reversals. Thus if respondents express a preference $(p_1, x_1) < (p_2, x_2), \, x_1 > x_2, \, p_2 > p_1$, then there may be some value $q, \, 0 < q < 1$ such that $(p_1 q, x_1) > (p_2 q, x_2)$.
+Violations of substitution show that applying the same relative decrement to both lotteries in a choice problem may elicit preference reversals. Thus if respondents express a preference $(p_1, x_1) < (p_2, x_2), \quad x_1 > x_2, \quad p_2 > p_1$, then there may be some value $q, \quad 0 < q < 1$ such that $(p_1 q, x_1) > (p_2 q, x_2)$.
 
 #### *Associated Phenomena*
 
@@ -279,3 +279,8 @@ Respondents generally select choice B) in Problem 13 and choice C) in Problem 14
 #### *Signature Formulation*
 
 Cancellation of common outcomes will occur with choices involving multistage outcomes. Prospect Theory generalizes further and asserts that outcome-probability pairs will be ignored if they are shared between lotteries.  
+
+---
+<img src="../../../../images/prospect_theory/balance_scale.jpg" alt="drawing" width="200"/>
+<br>
+"Balance scale" by Sepehr Ehsani is licensed under CC BY-NC-ND 2.0
